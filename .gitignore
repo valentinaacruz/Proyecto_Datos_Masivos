@@ -1,0 +1,27 @@
+# Datos crudos y procesados (demasiado grandes para git)
+datos/raw/
+datos/processed/
+datos/MINDlarge_train/
+datos/MINDlarge_dev/
+models/
+
+# Archivos del sistema
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# Spark
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.env/
+
+# Zips
+*.zip
