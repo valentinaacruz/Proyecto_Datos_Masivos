@@ -77,20 +77,24 @@ El proyecto utiliza dos fuentes públicas combinadas para alcanzar ~5 GB de noti
 
 **1. Clona el repositorio**
 ```bash
-git clone https://github.com/tu-usuario/clasificador-noticias.git
-cd clasificador-noticias
+git clone https://github.com/valentinaacruz/Proyecto_Datos_Masivos.git
+cd Proyecto_Datos_Masivos
 ```
 
 **2. Crea un entorno virtual e instala dependencias**
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate        # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-**3. (Opcional) Verifica que PySpark funciona**
+> El directorio `venv/` está en `.gitignore` — no se sube al repo, cada integrante lo crea localmente.
+
+**3. Verifica que todo funciona**
 ```bash
-python -c "import pyspark; print(pyspark.__version__)"
+python3 -c "import pyspark; print('PySpark', pyspark.__version__)"
+python3 -c "import nltk; print('NLTK OK')"
+python3 -c "import datasets; print('Datasets OK')"
 ```
 
 ---
