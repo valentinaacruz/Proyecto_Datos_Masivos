@@ -5,7 +5,7 @@
 
 ---
 
-## 👥 Equipo
+## Equipo: DataWhales
 
 | Nombre |
 |--------|
