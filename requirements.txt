@@ -13,6 +13,9 @@ datasets==2.20.0
 # Manejo de datos
 pandas==2.2.2
 pyarrow==16.1.0      # soporte Parquet
+scikit-learn==1.5.1  # F1 por clase en Fase 4
+matplotlib==3.9.1    # gráficas en Fase 5
+seaborn==0.13.2      # matriz de confusión en Fase 5
 
 # Notebooks
 jupyter==1.0.0
