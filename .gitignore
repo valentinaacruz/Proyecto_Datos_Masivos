@@ -1,8 +1,5 @@
 # Datos crudos y procesados (demasiado grandes para git)
-datos/raw/
-datos/processed/
-datos/MINDlarge_train/
-datos/MINDlarge_dev/
+datos/
 models/
 
 # Archivos del sistema
@@ -20,6 +17,7 @@ spark-warehouse/
 .ipynb_checkpoints/
 
 # Entornos virtuales
+.venv/
 venv/
 .env/
 
